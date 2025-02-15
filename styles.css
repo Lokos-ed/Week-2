@@ -1,0 +1,100 @@
+/* Element Testing */
+/* This class stylization will affect every line of text classified as "<h1>" by making the text within it pink */
+h1 {
+    color: rgb(255, 120, 255);
+}
+
+h2 {
+    color: white;
+}
+
+/* this will make every background on the website have the RGB value of 40, 40, 40. Or Very dark gray. */
+html {
+    background: rgb(40, 40, 40);
+}
+
+/* everything from "a:link" to "a:active" is used to change the text color of link elements. */
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+a:active {
+    color:rgb(255, 120, 255)
+}
+
+/* this will make the text of every list and table, and their contents, whether it's ordered or unordered, be white. */
+ol, ul, table {
+    color: white;
+}
+
+/* this affects just the contents of the list, regardless of whether it's ordered or unordered. */
+li {
+    color: paleturquoise;
+}
+
+/* float is a positioning tool for box elements. This specific command floats the image boxes to the right of the screen. */
+img {
+    float: right;
+}
+
+
+/* border-collapse makes the elements in the table possess the same borders as the ones next to them */
+/* the width command sets the width of the table borders. */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* the comma allows the computer to target both table header elements and table data elements in the same command. */
+/* padding creates an immediate border around the targeted elements. Text-align aligns the text to the specified position, in this case, it's the center. */
+/* border creates an outer border around the targeted elements. the "1px" determines the thickness of the border, the "solid" determines the border line style, and the "white" determines the color of the border. */
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* [type=text] tells the program to only target text-based input elements */
+/* width increases the length of the text boxes. margin increases the spacing between them. padding increases the space within the text box. font-weight makes the text bold. */
+input[type=text] {
+    width: 25%;
+    margin: 5px; 
+    padding: 8px 8px;
+    font-weight: bold;
+}
+
+/* [type=submit] tells the program to only target submit-based input elements */
+input[type=submit] {
+    font-weight: bold;
+    color: purple;
+}
+
+/* Class & ID Testing section */
+
+/* .test1 is a created class. Every element that is classed as it will follow these stylization rules. */
+/* font-weight changes the text to make it bold. */
+/* font-style is used to change the style of the font, in this case, it is italicized. */
+.test1 {
+    color: cyan;
+    font-weight: bold;
+}
+
+.test2 {
+    color: rgb(255, 120, 255);
+    font-style: italic;
+}
+
+/* #test3 is used to create an ID value, IDs can only be applied to one element on a page. They can be used in tandem with classes. */
+#test3 {
+    background-color: palevioletred;
+    color:  white;
+    font-weight: bolder;
+}
