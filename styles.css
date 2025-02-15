@@ -14,6 +14,7 @@ html {
 }
 
 /* everything from "a:link" to "a:active" is used to change the text color of link elements. */
+/* hover is used to change the link color when it is hovered over, active is used to change the color of the link while it is currently being clicked on. */
 a:link {
     color: cyan;
 }
